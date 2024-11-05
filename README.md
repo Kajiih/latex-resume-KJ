@@ -10,7 +10,5 @@ A LateX resume based on [Jesse Miller's resume](<https://github.com/jam643/resum
 ## Screenshots
 
 <p align="center">
-    <img alt="Screenshot" src="images/jesse_miller_resume-0.png" width="300">
-    <img alt="" src="images/jesse_miller_resume-1.png" width="300">
-    <img alt="" src="images/jesse_miller_resume-2.png" width="300">
+    <img alt="Screenshot" src="images/resume_latex_kj.png" width="300">
 </p>
