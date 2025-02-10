@@ -1,6 +1,6 @@
 %-------------------------
 % Resume in Latex
-% Author : Jesse Miller
+% Author : Jesse Miller + Julian Paquerot
 %------------------------
 
 % supports 10, 11, 12pt font sizes
@@ -22,26 +22,31 @@
 \usepackage{enumitem}
 \usepackage[hidelinks]{hyperref}
 \usepackage{fancyhdr}
-\usepackage[english]{babel}
 \usepackage{tabularx}
 \usepackage{hyphenat}
 \usepackage{fontawesome}
 \usepackage{enumitem}
 \input{glyphtounicode}
 \usepackage{parskip}
+\usepackage{iflang}
 \usepackage{etoolbox}  % for conditional logic
 \usepackage{csquotes}
 
 
-% is_long_version = true will render more detailed resume
+% Toggles
 \newtoggle{is_long_version} % Define the boolean variable
-\newtoggle{with_award}
+\newtoggle{with_award} 
+
+% Variables
 \settoggle{is_long_version}{false}
 \settoggle{with_award}{true}
 
-\pagestyle{fancy}
+\newcommand{\resumelanguage}{french} % 'english' 'french'
+\usepackage[\resumelanguage]{babel}
+\input{localization.tex}
 
 % clear all header and footer fields
+\pagestyle{fancy}
 \fancyhf{}
 \fancyfoot{}
 % remove lines between header/footer
