@@ -11,16 +11,29 @@
 }
 \outerBulletListStart{}
 \bulletItem{
-    Conducted reinforcement learning with human feedback experiments to enhance quality and alignment of unsupervised skill discovery in two embodied environments (iTHOR, Crafter).
-    Fully implemented a graphical skill extraction model in JAX/Flax, achieving a 2--4x increase in training speed.
-    Facilitated lab-wide adoption of the JAX framework by introducing and supporting other researchers in its application, achieving \~25\% adoption within a year.
+    \IfLanguageName{french}{
+        Recherche en apprentissage par renforcement à partir de rétroaction humaine (RLHF) pour améliorer la qualité et l'alignement de la découverte non supervisée de compétences dans deux environnements d'IA embarquée (iTHOR, Crafter).
+        Implémentation complète d'un modèle graphique probabiliste d'extraction de compétences en JAX/Flax, divisant les couts d'entraînement par 3.
+        Facilité l'adoption du framework de machine learning JAX au sein du laboratoire en introduisant et en accompagnant d'autres chercheurs dans son utilisation, atteignant environ 25\% d'adoption en un an.
+    }{
+        Conducted reinforcement learning with human feedback (RLHF) experiments to enhance quality and alignment of unsupervised skill discovery in two embodied environments (iTHOR, Crafter).
+        Fully implemented a graphical skill extraction model in JAX/Flax, achieving a 2--4x increase in training speed.
+        Facilitated lab-wide adoption of the JAX framework by introducing and supporting other researchers in its application, achieving \~25\% adoption within a year.
+    }
+
 }
 \bulletItem{
-    Led the design and development of an embodied RL environment based on AI2THOR
-    Deployed Docker containers to run Unity-based simulations on a headless cluster, enabling efficient training of RL agents.
-    Optimized task evaluation algorithms, reducing overhead to 1.7\% of the raw AI2THOR simulation runtime.
-    Designed 14 complex RL tasks, demonstrating 80\% relative improvement in task completion with a predicate-based reward signal.
-    Paper currently under review for ICRA 2025.
+    \IfLanguageName{french}{
+        Conception et développement d'un environnement de reinforcement learning embarquée basé sur AI2THOR\@.
+        Déploiement de conteneurs Docker pour exécuter des simulations Unity sur un cluster sans interface graphique, permettant un entraînement efficace des agents de RL\@.
+        Optimisation des algorithmes d'évaluation, réduisant la surcharge à 1.7\% du temps de simulation brut de AI2THOR\@.
+        Conception de 14 tâches RL complexes, démontrant une amélioration relative de 80\% du taux de complétion avec un signal de récompense basé sur des prédicats.
+    }{
+        Led the design and development of an embodied reinforcement learning (RL) environment based on AI2THOR
+        Deployed Docker containers to run Unity-based simulations on a headless cluster, enabling efficient training of RL agents.
+        Optimized task evaluation algorithms, reducing overhead to 1.7\% of the raw AI2THOR simulation runtime.
+        Designed 14 complex RL tasks, demonstrating 80\% relative improvement in task completion with a predicate-based reward signal.
+    }
 }
 \outerBulletListEnd{}
 
