@@ -295,4 +295,4 @@ build/*
 old/
 supplementary_materials/
 
-rl_thor_*.pdf
+*.pdf

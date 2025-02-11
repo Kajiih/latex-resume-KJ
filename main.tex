@@ -5,7 +5,6 @@
 
 % supports 10, 11, 12pt font sizes
 % letterpaper = 8.5in x 11in
-\documentclass[letterpaper,11pt]{article}
 
 % set margins
 \usepackage[
@@ -31,7 +30,6 @@
 \usepackage{etoolbox}  % for conditional logic
 \usepackage{csquotes}
 
-
 \usepackage{lmodern,textcomp}
 
 
@@ -43,7 +41,7 @@
 \settoggle{is_long_version}{false}
 \settoggle{with_award}{true}
 
-\newcommand{\resumelanguage}{french} % 'english' 'french'
+\usepackage[T1]{fontenc}
 \usepackage[\resumelanguage]{babel}
 \input{localization.tex}
 
@@ -206,6 +204,5 @@
 \sectionListStart{}
 \input{content/interests}
 \sectionListEnd{}
-
 %-------------------------------------------
 \end{document}
