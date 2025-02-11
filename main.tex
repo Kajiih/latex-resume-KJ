@@ -45,6 +45,8 @@
 \usepackage[\resumelanguage]{babel}
 \input{localization.tex}
 
+\newcommand{\midTilde}{\(\sim\)}  % ChkTeX 21
+
 % clear all header and footer fields
 \pagestyle{fancy}
 \fancyhf{}
@@ -170,7 +172,6 @@
 }{}
 
 %----------- EXPERIENCE -----------
-
 \section{\iflanguage{french}{Expériences Professionnelles}{Experience}}
 \sectionListStart{}
 \input{content/experience}
@@ -178,6 +179,7 @@
 
 
 %----------- EDUCATION -----------
+\iflanguage{french}{\vspace{-5pt}}{}
 \section{\iflanguage{french}{Études}{Education}}
 \sectionListStart{}
 \input{content/education}
@@ -192,6 +194,7 @@
 
 
 %----------- PROJECTS -----------
+\iflanguage{french}{\vspace{-5pt}}{}
 
 \section{\iflanguage{french}{Projets}{Projects}}
 \sectionListStart{}
@@ -199,8 +202,8 @@
 \sectionListEnd{}
 
 % ----------- Interests -----------
-
-\section{\iflanguage{french}{Langues et Centres d'Intérêt}{Language and Interests}}
+\iflanguage{french}{\vspace{-5pt}}{}
+\section{\iflanguage{french}{Langues et Centres d'Intérêt}{Languages and Interests}}
 \sectionListStart{}
 \input{content/interests}
 \sectionListEnd{}

@@ -12,3 +12,5 @@ A LateX resume based on [Jesse Miller's resume](<https://github.com/jam643/resum
 ## How to use?
 
 - Install `ImageMagick` and `pdftotext`
+- Edit the `main.tex` files and the different files in `/content` directory
+- After generating the pdfs, run `export.sh` to export as `png` and `txt`

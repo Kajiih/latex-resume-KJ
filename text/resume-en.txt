@@ -16,13 +16,12 @@ Graduate Student Researcher
 September 2022 – September 2024
 • Conducted reinforcement learning with human feedback (RLHF) experiments to enhance quality and alignment of
 unsupervised skill discovery in two embodied environments (iTHOR, Crafter). Fully implemented a graphical skill
-extraction model in JAX/Flax, achieving a 2–4x increase in training speed. Facilitated lab-wide adoption of the JAX
-framework by introducing and supporting other researchers in its application, achieving 2̃5% adoption within a year.
-• Led the design and development of an embodied reinforcement learning (RL) environment based on AI2THOR
-Deployed Docker containers to run Unity-based simulations on a headless cluster, enabling efficient training of RL
-agents. Optimized task evaluation algorithms, reducing overhead to 1.7% of the raw AI2THOR simulation runtime.
-Designed 14 complex RL tasks, demonstrating 80% relative improvement in task completion with a predicate-based
-reward signal.
+extraction model in JAX/Flax, achieving a 2–4x increase in training speed. Led lab-wide adoption of JAX, mentoring
+other researchers and driving ∼25% adoption within a year.
+• Led the design and development of an embodied reinforcement learning (RL) environment based on AI2THOR.
+Deployed Docker containers to run Unity simulations on a headless cluster, enabling efficient training of RL agents.
+Refined task evaluation algorithms, cutting overhead to 1.7% of the raw simulation runtime. Designed 14 complex RL
+tasks, increasing task completion rates by 80% compared to heuristic-based rewards.
 
 Apex Solutions
 
@@ -30,11 +29,11 @@ Figeac, France
 
 Research Internship
 June 2022 – August 2022
-• Initiated the development of a multi-agent environment to simulate intrusion scenarios in critical infrastructure
-(Python, Gym/Gymnasium). Delivered a base environment still actively used in subsequent research projects.
-• Designed and implemented reinforcement learning (RL) benchmarks for multi-agent capture-the-flag simulations with
-limited information-sharing constraints (PyTorch, Stable-Baselines3). Adapted RL algorithms for red team
-(penetration) and blue team (defense) agents to optimize performance in multi-agent scenarios.
+• Prototyped a multi-agent simulation environment in Python (Gym/Gymnasium) to model intrusion scenarios in
+critical infrastructure. Developed a foundational framework still actively used for internal security research.
+• Developed RL benchmarks for multi-agent capture-the-flag simulations with realistic limited information-sharing
+constraints (PyTorch, Stable-Baselines3). Optimized RL algorithms for red team (penetration) and blue team
+(defense) agents in multi-agent scenarios, improving adversarial training in security simulations.
 
 Education
 Seoul National University, College of Engineering | South Korea
@@ -42,13 +41,15 @@ Seoul National University, College of Engineering | South Korea
 September 2022 – July 2024
 
 Master of Computer Science and Engineering (Double Degree)
+• Master Thesis: RL-THOR: A Training Ground for Embodied Reinforcement Learning Agents on Compositional
+Household Tasks
 • Relevant Courses: Machine Learning (ML), Natural Language Processing (NLP), Probabilistic Graphical Model,
 Advanced Computer Architecture.
 • Teacher Assistant Work:
 ◦ Probabilistic Graphical Model (Graduate): Designed and graded one midterm exam and regular quizzes for
-a class of 4̃0 students.
+a class of ∼40 students.
 ◦ Discrete Math (Undergraduate): Designed, administered, and graded a 2-hour final exam and two major
-homework assignments for 1̃50 students.
+homework assignments for ∼150 students.
 
 École Nationale Supérieure des Mines de Saint-Étienne | France
 
@@ -59,22 +60,22 @@ Master of Data Science; Diplôme d’Ingénieur Civil des Mines (ICM)
 Artificial Intelligence, Image Processing, Networks,
 • Award for Community Engagement:
 ◦ President, Arts Council (Bureau des Arts): Directed cultural programming and events, organizing three
-monthly events, including the school’s annual gala with over 100 individual artists. Expanded arts engagement
-through regular music, dance, and theater classes, doubling participant numbers over one year.
-◦ Sports Coordinator, Cartel des Mines 2022: Directed the logistical and athletic planning of a 4-day,
-multi-sport competition with over 1,800 participants from top French engineering schools, and $160,000 budget
-with high participant satisfaction.
+monthly events, including the school’s annual gala featuring over 100 artists. Expanded arts engagement through
+regular music, dance, and theater classes, doubling participant numbers over one year.
+◦ Sports Coordinator, Cartel des Mines 2022: Directed the logistical and athletic planning of a 4-day
+inter-school multi-sport competition (14 sports, 1,800+ participants, $160,000 budget), achieving high participant
+satisfaction.
 
 Projects
 RL-THOR | GitHub 
-• RL environment using AI2THOR houehold scenes simulator. Enables researchers to customize the environment and
-define complex tasks based on relations between objects within the scene. Provides 30+ predefined tasks of varying
-difficulty level.
+• Developed an open-source RL environment using AI2THOR, optimized for embodied AI research with highly
+customizable complex tasks based on object relations within the scene.
 MusicBrainz2Notion | GitHub 
-• Launched a CLI app to synchronize music metadata databases between MusicBrainz and Notion.
+• Built a CLI app to automate music metadata synchronization between MusicBrainz and Notion, streamlining database
+updates for music enthusiasts and archivists.
 
-Language and Interests
-Languages Proficiency: Fluent in English, native in French, intermediate in German and Korean
-Interests: Dance (dancesport, contemporary), sport climbing (instructor), writing and staging productions
+Languages and Interests
+Language Proficiency: French (native), English (fluent – C1, TEPS 525/600, 2024), German and Korean (intermediate)
+Interests: Sport climbing (certified instructor), dancesport (competitions), creative writing and directing
 
 
