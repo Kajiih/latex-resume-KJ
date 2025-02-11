@@ -16,15 +16,26 @@
 % \vspace{\vspaceAfterBullets}
 
 \bulletItem{
-    \textbf{Languages Proficiency:}
-    {Fluent in English, native in French, intermediate in German and Korean}
+    \IfLanguageName{french}{
+        \textbf{Langues:}
+        Français natif, {anglais C1 (TEPS 525/600, 2024), allemand B2, coréen B1}
+    }{
+        \textbf{Languages Proficiency:}
+        {Fluent in English, native in French, intermediate in German and Korean}
+    }
 }
+
 \vspace{\vspaceAfterBullets}
 
 
 \bulletItem{
-    \textbf{Interests:}
-    Dance (social, dancesport, contemporary), sport climbing, writing and staging productions
+    \IfLanguageName{french}{
+        \textbf{Centres d'Intérêt:}
+        Danse sportive (compétition), escalade (initiateur), écriture et mise en scène
+    }{
+        \textbf{Interests:}
+        Dance (dancesport, contemporary), sport climbing (instructor), writing and staging productions
+    }
 }
 
 
