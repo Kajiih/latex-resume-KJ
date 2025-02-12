@@ -45,6 +45,7 @@
 \usepackage[T1]{fontenc}
 \usepackage[\resumelanguage]{babel}
 \input{localization.tex}
+\newcommand{\tuneSpaceBetweenSections}{\vspace{\vspaceBetweenSections}}
 
 \newcommand{\midTilde}{\(\sim\)}  % ChkTeX 21
 
@@ -147,6 +148,7 @@
 
 \begin{document}
 
+% \begin{samepage}
 %---------- HEADING ----------
 \def\spaceAfterLogo{0.5pt}
 \begin{center}
@@ -180,7 +182,7 @@
 
 
 %----------- EDUCATION -----------
-\iflanguage{french}{\vspace{-5pt}}{}
+\tuneSpaceBetweenSections{}
 \section{\iflanguage{french}{Études}{Education}}
 \sectionListStart{}
 \input{content/education}
@@ -189,24 +191,26 @@
 
 %----------- SELECT PATENTS -----------
 
+% \tuneSpaceBetweenSections{}
 % \section{Select Patents}
 % \begin{itemize}[leftmargin=15pt]
 % \end{itemize}
 
 
 %----------- PROJECTS -----------
-\iflanguage{french}{\vspace{-5pt}}{}
-
+\tuneSpaceBetweenSections{}
 \section{\iflanguage{french}{Projets}{Projects}}
 \sectionListStart{}
 \input{content/projects}
 \sectionListEnd{}
 
 % ----------- Interests -----------
-\iflanguage{french}{\vspace{-5pt}}{}
+\tuneSpaceBetweenSections{}
 \section{\iflanguage{french}{Langues et Centres d'Intérêt}{Languages and Interests}}
 \sectionListStart{}
 \input{content/interests}
 \sectionListEnd{}
 %-------------------------------------------
+% \end{samepage}
+
 \end{document}

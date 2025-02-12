@@ -42,7 +42,7 @@ September 2022 – July 2024
 
 Master of Computer Science and Engineering (Double Degree)
 • Master Thesis: RL-THOR: A Training Ground for Embodied Reinforcement Learning Agents on Compositional
-Household Tasks
+Household Tasks.
 • Relevant Courses: Machine Learning (ML), Natural Language Processing (NLP), Probabilistic Graphical Model,
 Advanced Computer Architecture.
 • Teacher Assistant Work:
@@ -56,8 +56,8 @@ homework assignments for ∼150 students.
 September 2020 – September 2024
 
 Master of Data Science; Diplôme d’Ingénieur Civil des Mines (ICM)
-• Relevant Courses: Probability & Statistics, Statistical learning, Machine learning, Metamodeling and Optimization,
-Artificial Intelligence, Image Processing, Networks,
+• Relevant Courses: Probability & Statistics, Statistical learning, Metamodeling and Optimization, Artificial
+Intelligence, Image Processing, Software Engineering.
 • Award for Community Engagement:
 ◦ President, Arts Council (Bureau des Arts): Directed cultural programming and events, organizing three
 monthly events, including the school’s annual gala featuring over 100 artists. Expanded arts engagement through
@@ -68,14 +68,14 @@ satisfaction.
 
 Projects
 RL-THOR | GitHub 
-• Developed an open-source RL environment using AI2THOR, optimized for embodied AI research with highly
-customizable complex tasks based on object relations within the scene.
+• Developed an open-source RL environment within AI2THOR, optimized for embodied AI research with realistic and
+highly customizable tasks based on object relations within the scene.
 MusicBrainz2Notion | GitHub 
 • Built a CLI app to automate music metadata synchronization between MusicBrainz and Notion, streamlining database
 updates for music enthusiasts and archivists.
 
 Languages and Interests
-Language Proficiency: French (native), English (fluent – C1, TEPS 525/600, 2024), German and Korean (intermediate)
-Interests: Sport climbing (certified instructor), dancesport (competitions), creative writing and directing
+Language Proficiency: French (native), English (fluent – C1, TEPS 525/600, 2024), German and Korean (intermediate).
+Interests: Sport climbing (certified instructor), dancesport (competitions), creative writing and directing.
 
 
