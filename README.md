@@ -5,8 +5,9 @@ A LateX resume based on [Jesse Miller's resume](<https://github.com/jam643/resum
 ## Screenshots
 
 <p align="center">
-    <img alt="Screenshot" src="images/resume-en.png" width="300">
-    <img alt="Screenshot" src="images/resume-fr.png" width="300">
+    <img alt="Screenshot" src="images/resume_research-en.png" width="300">
+    <img alt="Screenshot" src="images/resume_research-fr.png" width="300">
+    <!-- <img alt="Screenshot" src="images/resume_dev-fr.png" width="300"> -->
 </p>
 
 ## How to use?
