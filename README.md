@@ -1,4 +1,4 @@
-# Kajih's LaTeX multilingual resume
+# Kajih's multilingual resume
 
 A LateX resume based on [Jesse Miller's resume](<https://github.com/jam643/resume>) with support for several languages and easy exporting in different formats (`pdf`, `png`, `txt`)
 
