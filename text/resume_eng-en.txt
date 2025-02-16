@@ -1,0 +1,80 @@
+Julian Paquerot
++33 6 40 16 41 03 |
+
+julian@paquerot.net |
+
+linkedin.com/in/kajih |  github.com/Kajiih |
+
+Paris, France
+
+Experience
+SNU Vision & Learning Lab
+
+Seoul, South Korea
+
+Graduate Student Researcher
+September 2022 – September 2024
+• Developed and optimized a probabilistic graphical model for unsupervised skill extraction in JAX/Flax using
+reinforcement learning with human feedback (RLHF), reducing training costs by 60%. Mentored researchers on
+adopting JAX, achieving ∼25% lab-wide adoption within one year.
+• Led the design and development of an embodied reinforcement learning (RL) environment based on AI2THOR,
+including a framework for creating realistic hierachical tasks. Designed algorithms making the agent evaluation
+function tractable, reducing overhead to 1.7% of raw simulation runtime in AI2THOR. Deployed Docker containers to
+run Unity simulations on a headless cluster, enabling efficient training of RL agents.
+
+Apex Solutions
+
+Figeac, France
+
+AI Engineer Internship
+June 2022 – August 2022
+• Prototyped a multi-agent simulation environment in Python (Gym/Gymnasium) to model intrusion scenarios in
+critical infrastructure. Deployed a foundational framework still actively used for internal security research.
+• Developed RL benchmarks for multi-agent capture-the-flag simulations with realistic limited information-sharing
+constraints (PyTorch, Stable-Baselines3). Adapted and optimized RL algorithms for red team (offense) and blue team
+(defense) in multi-agent scenarios, enhancing adversarial training in security-focused simulations.
+
+Education
+Seoul National University, College of Engineering | South Korea
+
+September 2022 – July 2024
+
+Master of Computer Science and Engineering (Double Degree)
+• Master Thesis: RL-THOR: A Training Ground for Embodied Reinforcement Learning Agents on Compositional
+Household Tasks.
+• Relevant Courses: Advanced Computer Architecture, Machine Learning (ML), Natural Language Processing (NLP),
+Probabilistic Graphical Model.
+• Teacher Assistant Work:
+◦ Probabilistic Graphical Model (Graduate): Designed and graded one midterm exam and regular quizzes for
+a class of ∼40 students.
+◦ Discrete Math (Undergraduate): Designed, administered, and graded a 2-hour final exam and two major
+homework assignments for ∼150 students.
+
+École Nationale Supérieure des Mines de Saint-Étienne | France
+
+September 2020 – September 2024
+
+Master of Data Science; Diplôme d’Ingénieur Civil des Mines (ICM)
+• Relevant Courses: Software Engineering Practices, Network, Probability & Statistics, Artificial Intelligence,
+Statistical learning, Experimental methods.
+• Award for Community Engagement:
+◦ President, Arts Council (Bureau des Arts): Directed cultural programming and events, organizing three
+monthly events, including the school’s annual gala featuring over 100 artists. Expanded arts engagement through
+regular music, dance, and theater classes, doubling participant numbers over one year.
+◦ Sports Coordinator, Cartel des Mines 2022: Directed the logistical and athletic planning of a 4-day
+inter-school multi-sport competition (14 sports, 1,800+ participants, $160,000 budget), achieving high participant
+satisfaction.
+
+Projects
+RL-THOR — Python, PyTorch, Gymnasium | GitHub 
+• Developed an open-source RL environment within AI2THOR, optimized for embodied AI research with realistic and
+highly customizable tasks based on object relations within the scene.
+MusicBrainz2Notion — Python | GitHub 
+• Built a CLI app to automate music metadata synchronization between MusicBrainz and Notion, streamlining database
+updates for music enthusiasts and archivists.
+
+Languages and Interests
+Language Proficiency: French (native), English (fluent – C1, TEPS 525/600, 2024), German and Korean (intermediate).
+Interests: Sport climbing (certified instructor), dancesport (competitions), creative writing and directing.
+
+

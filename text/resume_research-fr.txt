@@ -17,11 +17,11 @@ Septembre 2022 – Septembre 2024
 • Amélioration de la qualité et de l’alignement de la découverte non supervisée de compétences via l’apprentissage par
 renforcement avec rétroaction humaine (RLHF) pour des intelligences artificielles (IA) incarnées. Implémentation et
 optimisation d’un modèle probabiliste d’extraction de compétences en JAX/Flax, réduisant les coûts d’entraînement de
-60%. Formation et accompagnement des chercheurs dans l’adoption de JAX, atteignant 25 % d’adoption en un an.
+60 %. Formation et accompagnement des chercheurs dans l’adoption de JAX, atteignant 25 % d’adoption en un an.
 • Conception et développement d’un environnement d’apprentissage par renforcement incarné basé sur AI2THOR,
-incluant un framework pour la création de tâches composables. Conception de nouveaux algorithmes rendant calculable
-la fonction d’évaluation des agents, réduisant la surcharge à 1,7 % du temps d’exécution brut d’AI2THOR.
-Déploiement de conteneurs Docker pour permettre l’entraînement des agents sur un cluster sans interface graphique.
+incluant un framework pour la création de tâches composables. Conception d’algorithmes rendant calculable la fonction
+d’évaluation des agents, réduisant la surcharge à 1,7 % du temps d’exécution brut d’AI2THOR. Déploiement de
+conteneurs Docker pour permettre l’entraînement des agents sur un cluster sans interface graphique.
 
 Figeac, France
 

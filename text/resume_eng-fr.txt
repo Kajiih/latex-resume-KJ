@@ -18,9 +18,9 @@ Septembre 2022 – Septembre 2024
 renforcement avec rétroaction humaine (RLHF), réduisant les coûts d’entraînement de 60 %. Formation et
 accompagnement des chercheurs dans l’adoption de JAX, atteignant 25 % d’adoption en un an.
 • Conception et développement d’un environnement d’apprentissage par renforcement incarné basé sur AI2THOR,
-incluant un framework pour la création de tâches composables. Conception de nouveaux algorithmes rendant calculable
-la fonction d’évaluation des agents, réduisant la surcharge à 1,7 % du temps d’exécution brut d’AI2THOR.
-Déploiement de conteneurs Docker pour permettre l’entraînement des agents sur un cluster sans interface graphique.
+incluant un framework pour la création de tâches composables. Conception d’algorithmes rendant calculable la fonction
+d’évaluation des agents, réduisant la surcharge à 1,7 % du temps d’exécution brut d’AI2THOR. Déploiement de
+conteneurs Docker pour permettre l’entraînement des agents sur un cluster sans interface graphique.
 
 Figeac, France
 
@@ -42,8 +42,8 @@ Septembre 2022 – Juillet 2024
 Master of Computer Science and Engineering (Double Diplôme)
 • Mémoire de Master : RL-THOR : A Training Ground for Embodied Reinforcement Learning Agents on
 Compositional Household Tasks.
-• Cours Principaux : Advanced Computer Architecture, Machine Learning (ML), Natural Language Processing
-(NLP), Probabilistic Graphical Model.
+• Cours Principaux : Machine Learning (ML), Natural Language Processing (NLP), Probabilistic Graphical Model,
+Advanced Computer Architecture.
 • Assistant d’Enseigenement :
 ◦ Modèles Graphiques Probabilistes (cycle supérieur) : Conception et correction d’un examen de
 mi-trimestre et d’evaluations hebdomadaires (∼40 étudiants).
@@ -53,8 +53,8 @@ plusieurs devoirs (∼ 150 étudiants).
 École Nationale Supérieure des Mines de Saint-Étienne | France
 Septembre 2020 – Septembre 2024
 Diplôme d’Ingénieur Civil des Mines (ICM) en Science des Données
-• Cours Principaux : Ingénierie Logicielle, Réseau, Probabilité & Statistiques, Intelligence Artificielle, Apprentissage
-Statistique, Méthodes Expérimentales.
+• Cours Principaux : Probabilité & Statistiques, Apprentissage Statistique, Métamodélisation et optimisation,
+Intelligence Artificielle, Traitement d’Images, Ingénierie Logicielle.
 • Prix de l’Engagement Associatif
 ◦ Président, Bureau des Arts : Direction de la programmation culturelle, incluant l’organisation de trois
 événements majeurs par mois et la production du gala annuel réunissant plus de 100 artistes. Nombre d’adhérents
@@ -64,10 +64,10 @@ multisportif inter-écoles (4 jours, 14 sports, 1800+ participants, 150 000 € 
 satisfaction élevé des participants.
 
 Projets
-RL-THOR — Python, PyTorch, Gymnasium | GitHub 
+RL-THOR | GitHub 
 • Environnement de RL open source intégré à AI2THOR, optimisé pour la recherche en IA incarnée, offrant une
 personnalisation avancée et la création de tâches complexes et réalistes.
-MusicBrainz2Notion — Python | GitHub 
+MusicBrainz2Notion | GitHub 
 • Application Python automatisant la synchronisation des métadonnées musicales entre MusicBrainz et Notion.
 
 Langues et Centres d’Intérêt
