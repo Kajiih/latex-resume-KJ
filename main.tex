@@ -1,216 +1,120 @@
-%-------------------------
-% Resume in Latex
-% Author : Jesse Miller + Julian Paquerot
-%------------------------
-
-% supports 10, 11, 12pt font sizes
-% letterpaper = 8.5in x 11in
-
-% set margins
-\usepackage[
-    left=0.5in,
-    right=0.5in,
-    top=0.4in,
-    bottom=0.4in,
-]{geometry}
-\usepackage{latexsym}
-\usepackage{titlesec}
-\usepackage{marvosym}
-\usepackage[usenames,dvipsnames]{color}
-\usepackage{verbatim}
-\usepackage[hidelinks]{hyperref}
-\usepackage{fancyhdr}
-\usepackage{tabularx}
-\usepackage{hyphenat}
-\usepackage{fontawesome}
-\usepackage{enumitem}
-\input{glyphtounicode}
-\usepackage{parskip}
-\usepackage{iflang}
-\usepackage{ifthen}
-\usepackage{etoolbox}  % for conditional logic
-\usepackage{csquotes}
-
-\usepackage{lmodern,textcomp}
+%% start of file `template.tex'.
+%% Copyright 2006-2015 Xavier Danaux (xdanaux@gmail.com), 2020-2022 moderncv maintainers (github.com/moderncv).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
 
 
-% Toggles
-\newtoggle{is_long_version} % Define the boolean variable
-\newtoggle{with_award} 
+\documentclass[12pt,a4paper,sans]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
 
-% Variables
-\settoggle{is_long_version}{false}
-\settoggle{with_award}{true}
+% moderncv themes
+\moderncvstyle{classic}                             % style options are 'casual' (default), 'classic', 'banking', 'oldstyle' and 'fancy'
+\moderncvcolor{blue}                               % color options 'black', 'blue' (default), 'burgundy', 'green', 'grey', 'orange', 'purple' and 'red'
 
-\usepackage[T1]{fontenc}
-\usepackage[\resumelanguage]{babel}
-\input{localization.tex}
-\newcommand{\tuneSpaceBetweenSections}{\vspace{\vspaceBetweenSections}}
+% Manually change each color
+\definecolor{Bblue}{HTML}{3f4e96}
+% \definecolor{color0}{rgb}{0,0,0} % Text
+\colorlet{color1}{Bblue}
+\definecolor{}{HTML}{3f4e96} % Main color
+% \definecolor{color2}{rgb}{0.45,0.45,0.45}% dark grey
 
-\newcommand{\midTilde}{\(\sim\)}  % ChkTeX 21
+\usepackage[scaled]{helvet}
+% \usepackage{ebgaramond}
+% \renewcommand\familydefault{\sfdefault}
+% \renewcommand\familydefault{\rmdefault}
+%\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+%\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
 
-% clear all header and footer fields
-\pagestyle{fancy}
-\fancyhf{}
-\fancyfoot{}
-% remove lines between header/footer
-\renewcommand{\headrulewidth}{0pt}
-\renewcommand{\footrulewidth}{0pt}
+% adjust the page margins
+\usepackage[scale=0.85]{geometry}
+\setlength{\footskip}{136.00005pt}                 % depending on the amount of information in the footer, you need to change this value. comment this line out and set it to the size given in the warning
+%\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
+%\setlength{\makecvheadnamewidth}{10cm}            % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
 
-\urlstyle{same}
+% font loading
+% for luatex and xetex, do not use inputenc and fontenc
+% see https://tex.stackexchange.com/a/496643
+\ifxetexorluatex
+  \usepackage{fontspec}
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Ligatures=TeX}
+  \setmainfont{Latin Modern Roman}
+  \setsansfont{Latin Modern Sans}
+  \setmonofont{Latin Modern Mono}
+  \setmathfont{Latin Modern Math} 
+\else
+  \usepackage[T1]{fontenc}
+  \usepackage{lmodern}
+\fi
 
-% don't stretch text to fill the entire line
-\raggedbottom{}
-\raggedright{}
-% remove horizontal padding from table cells
-\setlength{\tabcolsep}{0in}
+\newcommand{\resumeLanguage}{french}
+% document language
+\usepackage[\resumeLanguage]{babel}  % FIXME: using spanish breaks moderncv
 
-% Section heading formatting
-\titleformat{\section}{
-  \scshape\raggedright\large
-}{}{0em}{}[\color{black}\titlerule]
-
-% Ensure that generate pdf is machine readable/ATS parsable
-\pdfgentounicode=1
-
-%%% Set spacing %%%
-% set vertical spacing between sections
-\titlespacing*{\section}
-{0pt} % left indent
-{3pt} % spacing above
-{3pt} % spacing below
-
-\linespread{1.01}  % line spacing
-\setlength{\parskip}{0pt} % paragraph spacing
-
-% bullet list spacing
-\setlist[itemize]{itemsep=0pt} % vertical spacing between bullets
-\def\vspaceAfterBullets{3.5pt} % vertical spacing after bullet lists
-\def\bulletIndent{20pt} % indent of bullet lists
-
-% set bullet list symbol formatting
-\setlist[itemize,1]{label=\(\vcenter{\hbox{\tiny\(\bullet\)}}\)}  % chktex 21
-\setlist[itemize,2]{label=\(\vcenter{\hbox{\tiny\(\bullet\)}}\)} % chktex 21
-\setlist[itemize,3]{label=\(\vcenter{\hbox{\tiny\(\circ\)}}\)} % chktex 21
-
-%-------------------------
-% Custom commands
-
-\newcommand{\bulletItem}[1]{
-  \item\small{
-    {#1}
-  }
-}
-
-% company name -- location
-\newcommand{\companyNameAndLocationHeading}[2]{
-  \item 
-    \begin{tabular*}{1.0\textwidth}[b]{l@{\extracolsep{\fill}}r}
-      \textbf{#1} & #2
-    \end{tabular*}
-}
-
-% job title -- date
-\newcommand{\titleAndDateHeading}[2]{
-    \item
-    \begin{tabular*}{1.0\textwidth}[b]{l@{\extracolsep{\fill}}r}
-      {\bfseries\itshape\small #1\/} & \itshape\small #2
-    \end{tabular*}
-}
-
-% project name -- date
-\newcommand{\resumeProjectHeading}[2]{
-    \item
-    \begin{tabular*}{1.0\textwidth}[b]{l@{\extracolsep{\fill}}r}
-      \small#1 & #2
-    \end{tabular*}
-}
-
-\newcommand{\sectionListStart}{\begin{itemize}[leftmargin=0pt, label={}]}
-\newcommand{\sectionListEnd}{\end{itemize}}
-
-\newcommand{\outerBulletListStart}{\begin{itemize}[leftmargin=\bulletIndent]}
-\newcommand{\outerBulletListEnd}{\end{itemize}\vspace{\vspaceAfterBullets}}
-
-
-\newcommand{\innerBulletListStart}{\begin{itemize}[leftmargin=\bulletIndent]}
-\newcommand{\innerBulletListEnd}{\end{itemize}}
-
-% blue colored hyperlinks
-\newcommand{\bref}[2]{\href{#1}{\color{blue}{#2}}}
-
-
-% === Inputs === %
+\input{content/localization.tex}
 \input{content/my_info}
+% blue colored hyperlinks
+\newcommand{\bref}[2]{\href{#1}{\color{Bblue}{#2}}}
 
-%-------------------------------------------
-%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%
+% personal data
+\name{\FirstName}{\FamilyName}
+\title{\Title}                               % optional, remove / comment the line if not wanted
+% \born{\BirthDay}                                 % optional, remove / comment the line if not wanted
+\address{\City, \Country}{}{}
+% \address{\StreetAndNumber}{\City}{\Country}% optional, remove / comment the line if not wanted; the "postcode city" and "country" arguments can be omitted or provided empty
+\phone[mobile]{\MobileFormatted}                   % optional, remove / comment the line if not wanted; the optional "type" of the phone can be "mobile" (default), "fixed" or "fax"
+% \phone[fixed]{+2~(345)~678~901}
+% \phone[fax]{+3~(456)~789~012}
+\email{\EmailAdress}                               % optional, remove / comment the line if not wanted
+% \homepage{www.johndoe.com}                         % optional, remove / comment the line if not wanted
 
+% Social icons
+\social[linkedin]{\LinkedInUsername}                        % optional, remove / comment the line if not wanted
+% \social[xing]{john\_doe}                           % optional, remove / comment the line if not wanted
+% \social[twitter]{ji\_doe}                             % optional, remove / comment the line if not wanted
+\social[github]{\GitHubUsername}                              % optional, remove / comment the line if not wanted
+% \social[gitlab]{jdoe}                              % optional, remove / comment the line if not wanted
+% \social[stackoverflow]{0000000/johndoe}            % optional, remove / comment the line if not wanted
+% \social[bitbucket]{jdoe}                           % optional, remove / comment the line if not wanted
+% \social[skype]{jdoe}                               % optional, remove / comment the line if not wanted
+% \social[orcid]{0000-0000-000-000}                  % optional, remove / comment the line if not wanted
+% \social[researchgate]{jdoe}                        % optional, remove / comment the line if not wanted
+% \social[researcherid]{jdoe}                        % optional, remove / comment the line if not wanted
+% \social[telegram]{jdoe}                            % optional, remove / comment the line if not wanted
+% \social[whatsapp]{12345678901}                     % optional, remove / comment the line if not wanted
+% \social[signal]{12345678901}                       % optional, remove / comment the line if not wanted
+% \social[matrix]{@johndoe:matrix.org}               % optional, remove / comment the line if not wanted
+% \social[googlescholar]{googlescholarid}            % optional, remove / comment the line if not wanted
+
+
+% \extrainfo{additional information}                 % optional, remove / comment the line if not wanted
+\photo[100pt][0.4pt]{portrait_square}                       % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
+% \quote{Some quote}                                 % optional, remove / comment the line if not wanted
+
+% bibliography adjustments (only useful if you make citations in your resume, or print a list of publications using BibTeX)
+%   to show numerical labels in the bibliography (default is to show no labels)
+%\makeatletter\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}\makeatother
+\renewcommand*{\bibliographyitemlabel}{[\arabic{enumiv}]}
+%   to redefine the bibliography heading string ("Publications")
+%\renewcommand{\refname}{Articles}
+
+% bibliography with mutiple entries
+%\usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
 \begin{document}
+%\begin{CJK*}{UTF8}{gbsn}                          % to typeset your resume in Chinese using CJK
+%-----       resume       ---------------------------------------------------------
+\makecvtitle
 
-% \begin{samepage}
-%---------- HEADING ----------
-\def\spaceAfterLogo{0.5pt}
-\begin{center}
-  \textbf{\Huge \FullName} \\ \vspace{3pt}
-  \small
-  \faMobile\hspace{\spaceAfterLogo} \href{tel:\Mobile}{\MobileFormatted}
-  \(|\)
-  \faEnvelope\hspace{\spaceAfterLogo} \href{mailto:\EmailAdress}{\EmailAdress}
-  \(|\)
-  \faLinkedinSquare\hspace{\spaceAfterLogo} \href{https://www.\LinkedInURL}{\LinkedInURL}
-  \(|\)
-  \faGithub\hspace{\spaceAfterLogo} \href{https://\GitHubURL}{\GitHubURL}
-  \(|\)
-  % \faGlobe \hspace{\spaceAfterLogo} \href{https://jam643.github.io}{Portfolio}
-  % \(|\)
-  \faMapMarker\hspace{\spaceAfterLogo} \href{\MapURL}{\City, \Country}
-\end{center}
-% chktex 21
-%----------- SUMMARY -----------
-\iftoggle{is_long_version}
-{
-  \section{Personal Statement}
-  \small \input{content/intro}
-}{}
+\input{rubrics/education}
+\input{rubrics/experience}
+\input{rubrics/projects}
+\input{rubrics/interests}
 
-%----------- EXPERIENCE -----------
-\section{\iflanguage{french}{Expériences Professionnelles}{Experience}}
-\sectionListStart{}
-\input{content/experience}
-\sectionListEnd{}
-
-
-%----------- EDUCATION -----------
-\tuneSpaceBetweenSections{}
-\section{\iflanguage{french}{Études}{Education}}
-\sectionListStart{}
-\input{content/education}
-\sectionListEnd{}
-
-
-%----------- SELECT PATENTS -----------
-
-% \tuneSpaceBetweenSections{}
-% \section{Select Patents}
-% \begin{itemize}[leftmargin=15pt]
-% \end{itemize}
-
-
-%----------- PROJECTS -----------
-\tuneSpaceBetweenSections{}
-\section{\iflanguage{french}{Projets}{Projects}}
-\sectionListStart{}
-\input{content/projects}
-\sectionListEnd{}
-
-% ----------- Interests -----------
-\tuneSpaceBetweenSections{}
-\section{\iflanguage{french}{Langues et Centres d'Intérêt}{Languages and Interests}}
-\sectionListStart{}
-\input{content/interests}
-\sectionListEnd{}
-%-------------------------------------------
-% \end{samepage}
-
+% \clearpage
+% \input{unused_rubrics/cover_letter}
 \end{document}

@@ -1,6 +1,6 @@
 % Define a command that chooses month names depending on the current language.
 \newcommand{\monthName}[1]{%
-    \IfLanguageName{french}{%
+    \iflanguage{french}{%
         % Then branch: French month names.
         \ifcase#1\relax
         \or Janvier%
@@ -50,3 +50,5 @@
 \newcommand{\october}{\monthName{10}}
 \newcommand{\november}{\monthName{11}}
 \newcommand{\december}{\monthName{12}}
+
+\newcommand{\Seoul}{\iflanguage{french}{Séoul}{Seoul}}

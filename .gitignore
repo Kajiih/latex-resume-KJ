@@ -283,15 +283,11 @@ cl-seq.pdf
 *.pptx
 *.ppt
 
-# todo
-*todo.md
-
 # Build
 build/*
 
 .DS_Store
 .vscode/
-old/
-supplementary_materials/
 
 *.pdf
+/unused_rubrics
