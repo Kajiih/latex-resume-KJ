@@ -1,216 +1,107 @@
-%-------------------------
-% Resume in Latex
-% Author : Jesse Miller + Julian Paquerot
-%------------------------
+%%%%%%%%%%%%%%%
+% This CV example/template is based on my own
+% CV which I (lamely attempted) to clean up, so that
+% it's less of an eyesore and easier for others to use.
+%
+% LianTze Lim (liantze@gmail.com)
+% 23 Oct, 2022
+% 24 Aug, 2024 -- Updated X (Twitter) icon
+% Julian Paquerot (itskajih@gmail.com)
 
-% supports 10, 11, 12pt font sizes
-% letterpaper = 8.5in x 11in
 
-% set margins
-\usepackage[
-    left=0.5in,
-    right=0.5in,
-    top=0.4in,
-    bottom=0.4in,
-]{geometry}
-\usepackage{latexsym}
-\usepackage{titlesec}
-\usepackage{marvosym}
-\usepackage[usenames,dvipsnames]{color}
-\usepackage{verbatim}
-\usepackage[hidelinks]{hyperref}
-\usepackage{fancyhdr}
-\usepackage{tabularx}
-\usepackage{hyphenat}
-\usepackage{fontawesome}
-\usepackage{enumitem}
-\input{glyphtounicode}
-\usepackage{parskip}
-\usepackage{iflang}
-\usepackage{ifthen}
+% Variables
+\newcommand{\resumelanguage}{french}
+\newcommand{\resumeFocus}{eng}
+
+\documentclass[a4paper,skipsamekey,12pt,\resumelanguage]{curve}
+
+
+
+% Most commands and style definitions are in settings.sty.
+\usepackage{settings}
+
+
+% Change the fonts if you want
+\usepackage[T1]{fontenc}
+\usepackage[p,osf,swashQ]{cochineal}
+\usepackage{cabin}
+\usepackage[varqu,varl,scale=0.9]{zi4}
+
 \usepackage{etoolbox}  % for conditional logic
 \usepackage{csquotes}
 
 \usepackage{lmodern,textcomp}
-
-
-% Toggles
-\newtoggle{is_long_version} % Define the boolean variable
-\newtoggle{with_award} 
-
-% Variables
-\settoggle{is_long_version}{false}
-\settoggle{with_award}{true}
-
-\usepackage[T1]{fontenc}
-\usepackage[\resumelanguage]{babel}
-\input{localization.tex}
-\newcommand{\tuneSpaceBetweenSections}{\vspace{\vspaceBetweenSections}}
-
-\newcommand{\midTilde}{\(\sim\)}  % ChkTeX 21
-
-% clear all header and footer fields
-\pagestyle{fancy}
-\fancyhf{}
-\fancyfoot{}
-% remove lines between header/footer
-\renewcommand{\headrulewidth}{0pt}
-\renewcommand{\footrulewidth}{0pt}
-
-\urlstyle{same}
-
-% don't stretch text to fill the entire line
-\raggedbottom{}
-\raggedright{}
-% remove horizontal padding from table cells
-\setlength{\tabcolsep}{0in}
-
-% Section heading formatting
-\titleformat{\section}{
-  \scshape\raggedright\large
-}{}{0em}{}[\color{black}\titlerule]
-
-% Ensure that generate pdf is machine readable/ATS parsable
-\pdfgentounicode=1
-
-%%% Set spacing %%%
-% set vertical spacing between sections
-\titlespacing*{\section}
-{0pt} % left indent
-{3pt} % spacing above
-{3pt} % spacing below
-
-\linespread{1.01}  % line spacing
-\setlength{\parskip}{0pt} % paragraph spacing
-
-% bullet list spacing
-\setlist[itemize]{itemsep=0pt} % vertical spacing between bullets
-\def\vspaceAfterBullets{3.5pt} % vertical spacing after bullet lists
-\def\bulletIndent{20pt} % indent of bullet lists
-
-% set bullet list symbol formatting
-\setlist[itemize,1]{label=\(\vcenter{\hbox{\tiny\(\bullet\)}}\)}  % chktex 21
-\setlist[itemize,2]{label=\(\vcenter{\hbox{\tiny\(\bullet\)}}\)} % chktex 21
-\setlist[itemize,3]{label=\(\vcenter{\hbox{\tiny\(\circ\)}}\)} % chktex 21
-
-%-------------------------
-% Custom commands
-
-\newcommand{\bulletItem}[1]{
-  \item\small{
-    {#1}
-  }
-}
-
-% company name -- location
-\newcommand{\companyNameAndLocationHeading}[2]{
-  \item 
-    \begin{tabular*}{1.0\textwidth}[b]{l@{\extracolsep{\fill}}r}
-      \textbf{#1} & #2
-    \end{tabular*}
-}
-
-% job title -- date
-\newcommand{\titleAndDateHeading}[2]{
-    \item
-    \begin{tabular*}{1.0\textwidth}[b]{l@{\extracolsep{\fill}}r}
-      {\bfseries\itshape\small #1\/} & \itshape\small #2
-    \end{tabular*}
-}
-
-% project name -- date
-\newcommand{\resumeProjectHeading}[2]{
-    \item
-    \begin{tabular*}{1.0\textwidth}[b]{l@{\extracolsep{\fill}}r}
-      \small#1 & #2
-    \end{tabular*}
-}
-
-\newcommand{\sectionListStart}{\begin{itemize}[leftmargin=0pt, label={}]}
-\newcommand{\sectionListEnd}{\end{itemize}}
-
-\newcommand{\outerBulletListStart}{\begin{itemize}[leftmargin=\bulletIndent]}
-\newcommand{\outerBulletListEnd}{\end{itemize}\vspace{\vspaceAfterBullets}}
-
-
-\newcommand{\innerBulletListStart}{\begin{itemize}[leftmargin=\bulletIndent]}
-\newcommand{\innerBulletListEnd}{\end{itemize}}
-
-% blue colored hyperlinks
-\newcommand{\bref}[2]{\href{#1}{\color{blue}{#2}}}
-
-
-% === Inputs === %
 \input{content/my_info}
 
-%-------------------------------------------
-%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%
+
+% \usepackage[\resumelanguage]{babel}
+\input{content/localization}
+
+\newcommand{\midTilde}{\(\sim\)}  % ChkTeX 21s
+
+% Change the page margins
+\geometry{hmargin=1.7cm,vmargin=1.5cm}
+
+% Change the colors if you want
+\definecolor{SwishLineColour}{HTML}{4c8a22}
+% \definecolor{SwishLineColour}{HTML}{222f8a}
+% \definecolor{MarkerColour}{HTML}{151928}
+\definecolor{MarkerColour}{HTML}{2a3085}
+
+% Change the item prefix marker if you want
+\prefixmarker{\(\diamond{}\)}
+
+%% Photo is only shown if "fullonly" is included
+\includecomment{fullonly}
+% \excludecomment{fullonly}
+
+
+\newcommand{\itemizeVSpace}{\vspace{-15pt}}
+% blue colored hyperlinks
+\newcommand{\bref}[2]{\href{#1}{\color{MarkerColour}{#2}}}
+
+% \usepackage{enumitem}
+% \setlist[itemize]{label=\textbullet}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\leftheader{
+  {\huge\bfseries\sffamily \FullName}
+  \vspace{8pt}
+
+  \makefield{\faMobile*}{\href{tel:\Mobile}{\MobileFormatted}}
+
+  \makefield{\faEnvelope[regular]}{\href{mailto:\EmailAdress}{\texttt{\EmailAdress}}}
+
+  \makefield{\faLinkedin}{\href{https://www.\GitHubURL}{\texttt{\GitHubURL}}}
+
+  %% Next line
+  \makefield{\faGithub}{\href{https://www.\LinkedInURL}{\texttt{\LinkedInURL}}}
+
+  % \makefield{\faMapMarker}{\href{\MapURL}{\City, \Country}}
+  % You can use a tabular here if you want to line up the fields.
+  
+}
+
+\rightheader{~}
+\begin{fullonly}
+  \photo[r]{media/portrait_square_rounded}
+  \photoscale{0.25}
+\end{fullonly}
+
+\title{Ingénieur en Intelligence Artificielles}
+
 
 \begin{document}
+\makeheaders[c]
+% \maketitle[l]
 
-% \begin{samepage}
-%---------- HEADING ----------
-\def\spaceAfterLogo{0.5pt}
-\begin{center}
-  \textbf{\Huge \FullName} \\ \vspace{3pt}
-  \small
-  \faMobile\hspace{\spaceAfterLogo} \href{tel:\Mobile}{\MobileFormatted}
-  \(|\)
-  \faEnvelope\hspace{\spaceAfterLogo} \href{mailto:\EmailAdress}{\EmailAdress}
-  \(|\)
-  \faLinkedinSquare\hspace{\spaceAfterLogo} \href{https://www.\LinkedInURL}{\LinkedInURL}
-  \(|\)
-  \faGithub\hspace{\spaceAfterLogo} \href{https://\GitHubURL}{\GitHubURL}
-  \(|\)
-  % \faGlobe \hspace{\spaceAfterLogo} \href{https://jam643.github.io}{Portfolio}
-  % \(|\)
-  \faMapMarker\hspace{\spaceAfterLogo} \href{\MapURL}{\City, \Country}
-\end{center}
-% chktex 21
-%----------- SUMMARY -----------
-\iftoggle{is_long_version}
-{
-  \section{Personal Statement}
-  \small \input{content/intro}
-}{}
+\makerubric{rubrics/education}
+\makerubric{rubrics/experience}
+\makerubric{rubrics/projects}
+\makerubric{rubrics/interests}
 
-%----------- EXPERIENCE -----------
-\section{\iflanguage{french}{Expériences Professionnelles}{Experience}}
-\sectionListStart{}
-\input{content/experience}
-\sectionListEnd{}
-
-
-%----------- EDUCATION -----------
-\tuneSpaceBetweenSections{}
-\section{\iflanguage{french}{Études}{Education}}
-\sectionListStart{}
-\input{content/education}
-\sectionListEnd{}
-
-
-%----------- SELECT PATENTS -----------
-
-% \tuneSpaceBetweenSections{}
-% \section{Select Patents}
-% \begin{itemize}[leftmargin=15pt]
-% \end{itemize}
-
-
-%----------- PROJECTS -----------
-\tuneSpaceBetweenSections{}
-\section{\iflanguage{french}{Projets}{Projects}}
-\sectionListStart{}
-\input{content/projects}
-\sectionListEnd{}
-
-% ----------- Interests -----------
-\tuneSpaceBetweenSections{}
-\section{\iflanguage{french}{Langues et Centres d'Intérêt}{Languages and Interests}}
-\sectionListStart{}
-\input{content/interests}
-\sectionListEnd{}
-%-------------------------------------------
-% \end{samepage}
 
 \end{document}

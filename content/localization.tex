@@ -1,0 +1,52 @@
+% Define a command that chooses month names depending on the current language.
+\newcommand{\monthName}[1]{%
+    \iflanguage{french}{%
+        % Then branch: French month names.
+        \ifcase#1\relax
+        \or Janvier%
+        \or Février%
+        \or Mars%
+        \or Avril%
+        \or Mai%
+        \or Juin%
+        \or Juillet%
+        \or Août%
+        \or Septembre%
+        \or Octobre%
+        \or Novembre%
+        \or Décembre%
+        \else [Invalid month]%
+        \fi
+    }{%
+        % Else branch: English month names.
+        \ifcase#1\relax
+        \or January%
+        \or February%
+        \or March%
+        \or April%
+        \or May%
+        \or June%
+        \or July%
+        \or August%
+        \or September%
+        \or October%
+        \or November%
+        \or December%
+        \else [Invalid month]%
+        \fi
+    }%
+}
+
+
+\newcommand{\january}{\monthName{1}}
+\newcommand{\february}{\monthName{2}}
+\newcommand{\march}{\monthName{3}}
+\newcommand{\april}{\monthName{4}}
+\newcommand{\may}{\monthName{5}}
+\newcommand{\june}{\monthName{6}}
+\newcommand{\july}{\monthName{7}}
+\newcommand{\august}{\monthName{8}}
+\newcommand{\september}{\monthName{9}}
+\newcommand{\october}{\monthName{10}}
+\newcommand{\november}{\monthName{11}}
+\newcommand{\december}{\monthName{12}}
