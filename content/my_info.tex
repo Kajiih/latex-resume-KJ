@@ -4,8 +4,11 @@
 \newcommand{\FirstName}{Julian}
 \newcommand{\FamilyName}{Paquerot}
 \newcommand{\FullName}{\FirstName{} \FamilyName}
-\newcommand{\Title}{Ingénieur en Intelligence Artificielle}
-
+\newcommand{\Title}{
+    \iflanguage{french}
+    {Ingénieur en Intelligence Artificielle}
+    {AI Engineer}
+}
 \newcommand{\BirthDay}{18 \january{} 2000}
 
 

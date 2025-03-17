@@ -1,58 +1,9 @@
-%% start of file `template.tex'.
-%% Copyright 2006-2015 Xavier Danaux (xdanaux@gmail.com), 2020-2022 moderncv maintainers (github.com/moderncv).
-%
-% This work may be distributed and/or modified under the
-% conditions of the LaTeX Project Public License version 1.3c,
-% available at http://www.latex-project.org/lppl/.
 
-
-\documentclass[12pt,a4paper,sans]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
-
-% moderncv themes
-\moderncvstyle{classic}                             % style options are 'casual' (default), 'classic', 'banking', 'oldstyle' and 'fancy'
-\moderncvcolor{blue}                               % color options 'black', 'blue' (default), 'burgundy', 'green', 'grey', 'orange', 'purple' and 'red'
-
-% Manually change each color
-\definecolor{Bblue}{HTML}{3f4e96}
-% \definecolor{color0}{rgb}{0,0,0} % Text
-\colorlet{color1}{Bblue}
-\definecolor{}{HTML}{3f4e96} % Main color
-% \definecolor{color2}{rgb}{0.45,0.45,0.45}% dark grey
-
-\usepackage[scaled]{helvet}
-% \usepackage{ebgaramond}
-% \renewcommand\familydefault{\sfdefault}
-% \renewcommand\familydefault{\rmdefault}
-%\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
-%\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
-
-% adjust the page margins
-\usepackage[scale=0.85]{geometry}
-\setlength{\footskip}{136.00005pt}                 % depending on the amount of information in the footer, you need to change this value. comment this line out and set it to the size given in the warning
-%\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
-%\setlength{\makecvheadnamewidth}{10cm}            % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
-
-\usepackage[T1]{fontenc}
-\usepackage{lmodern}
-
-
-\newcommand{\resumeLanguage}{french}
-% document language
 \usepackage[\resumeLanguage]{babel}  % FIXME: using spanish breaks moderncv
-
-\input{content/localization.tex}
-\input{content/my_info}
-% blue colored hyperlinks
-\newcommand{\bref}[2]{\href{#1}{\color{Bblue}{#2}}}
-
 \input{rubrics/header}
-%----------------------------------------------------------------------------------
-%            content
-%----------------------------------------------------------------------------------
+
 \begin{document}
-%\begin{CJK*}{UTF8}{gbsn}                          % to typeset your resume in Chinese using CJK
-%-----       resume       ---------------------------------------------------------
-\makecvtitle
+\makecvtitle % chktex 1
 
 \input{rubrics/education}
 \input{rubrics/experience}
