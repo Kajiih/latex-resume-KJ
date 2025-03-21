@@ -1,0 +1,41 @@
+Julian Paquerot
+Joigny, France
+I +33 6 40 16 41 03
+# julian@paquerot.net
+L’Équipe de Recrutement LCL
+LCL
+Guyancourt
+France
+
+21 Mars 2025
+
+Madame, Monsieur,
+Ingénieur diplômé de l’École des Mines de Saint-Étienne (spécialisation Science des Données) et de Seoul
+National University (#40 mondial, THE 2025), je souhaite mettre mes compétences techniques et ma
+polyvalence au service des défis data de LCL. Votre ambition de transformer la banque grâce à des
+indicateurs stratégiques et des ciblages commerciaux précis résonne avec mon parcours, alliant rigueur
+analytique, leadership opérationnel et appétence pour les projets impactants.
+Pourquoi mon profil correspond à vos besoins ?
+— Expertise IA et data opérationnelle : Conception à Seoul National University de frameworks de
+Machine Learning pour l’entraînement d’IA domestiques, déployé en open-source sous RL-THOR.
+Développement d’outils de modélisation et d’analyses pour renforcer la sécurité d’infrastructures
+critiques (ex : détection de risques en temps réel), avec création de benchmarks automatisés.
+— Adaptation et transversalité : Expérience internationale en recherche (SNU, Corée), gestion de
+projets à fort enjeu (Cartel des Mines : 150k € de budget, 1800+ participants) et coordination
+d’équipes créatives (président du Bureau des Arts), démontrant mon agilité à jongler entre
+technique, stratégie et collaboration.
+— Alignement avec vos outils : Maîtrise avancée de Python, bases de données et frameworks d’IA
+(sklearn,PyTorch), doublée d’une curiosité pour les problématiques sectorielles (analyse d’attrition,
+qualité des données).
+Pourquoi LCL ?
+Votre engagement pour l’innovation au service de l’humain et des entreprises françaises correspond à mes
+aspirations : contribuer à des solutions data concrètes, dans un écosystème où l’apprentissage continu et
+l’impact sociétal sont prioritaires. Mon profil éclectique, alliant créativité et rigueur d’ingénieur, pourrait
+enrichir votre équipe tout en me permettant de progresser auprès de professionnels inspirants.
+Je serais ravi d’échanger sur la manière dont mes compétences en science des données et mon énergie
+pourraient soutenir vos ambitions.
+Dans l’attente de votre retour, je vous prie d’agréer, Madame, Monsieur, mes salutations distinguées.
+
+Julian Paquerot
+
+
