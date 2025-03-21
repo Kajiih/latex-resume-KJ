@@ -292,3 +292,4 @@ build/*
 *.pdf
 /unused_rubrics
 portrait_square.jpg
+old/

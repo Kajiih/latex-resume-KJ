@@ -1,0 +1,41 @@
+Julian Paquerot
+Joigny, France
+I +33 6 40 16 41 03
+# julian@paquerot.net
+Company Recruitment team
+Mirakl
+Île-de-France
+Paris
+
+21 Mars 2025
+
+Madame, Monsieur,
+À l’intersection entre rigueur technique et impact opérationnel, je souhaite apporter à Mirakl mon
+expertise en machine learning et ma passion pour le développement de projets scalables. Diplômé de
+l’École des Mines de Saint-Étienne (spécialisation Science des Données) et de Seoul National University
+(#40 mondiale, THE 2025), j’allie une solide formation en IA à une capacité d’adaptation forgée par des
+expériences internationales et des défis techniques ambitieux.
+Pourquoi mon profil correspond à vos besoins ?
+— Développement & déploiement d’algorithmes : Conception à Seoul National University d’un
+framework d’apprentissage par renforcement (RL) (Python/PyTorch) pour l’entraînement distribué
+d’IA domestiques, déployé en open-source sous RL-THOR. Optimisation de benchmarks RL pour
+des environnements critiques (simulations d’intrusion, détection d’anomalies), démontrant ma
+capacité à adresser des défis complexes et scalables.
+— Expertise transverse : Formation de chercheurs à de nouveaux frameworks de Machine Learning,
+gestion de projets d’envergure (responsable du Cartel des Mines : 150k€ de budget, 1800+
+participants) et de projets créatifs (président du Bureau des Arts), une polyvalence qui nourrit ma
+créativité technique.
+— Alignement avec votre stack : Maîtrise de Python, PyTorch, et environnements cloud (AWS),
+doublée d’un intérêt marqué pour le NLP et les architectures de pointe (Transformers).
+Pourquoi Mirakl ?
+Vos défis en catégorisation de produits, détection de fraude ou recommandation personnalisée résonnent
+avec mes aspirations : concrétiser des solutions IA qui transforment l’expérience utilisateur à grande
+échelle. Je suis convaincu que mon profil polyvalent (recherche académique et sens du métier) pourrait
+enrichir vos équipes, tout en m’offrant l’environnement d’apprentissage dynamique que je recherche.
+Je serais ravi d’échanger sur la manière dont mes compétences peuvent contribuer aux projets data de
+Mirakl.
+Dans l’attente de votre retour, je vous prie d’agréer, Madame, Monsieur, mes salutations distinguées.
+
+Julian Paquerot
+
+
