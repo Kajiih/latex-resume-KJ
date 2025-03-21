@@ -45,10 +45,19 @@ for PDF_FILE in *.pdf; do
     fi
 done
 
-# Stage changes in git
-if git add "$IMAGES_PATH/" "$TEXT_PATH/"; then
-    echo "Files staged for git."
-else
-    echo "Failed to stage files for git." >&2
-    exit 1
-fi
+# Prompt user for staging
+read -p "Do you want to stage the changes in Git? [y/N] " answer
+case $answer in
+[Yy]*)
+    # Stage changes in git
+    if git add "$IMAGES_PATH/" "$TEXT_PATH/"; then
+        echo "Files staged for git."
+    else
+        echo "Failed to stage files for git." >&2
+        exit 1
+    fi
+    ;;
+*)
+    echo "Skipping git staging."
+    ;;
+esac
