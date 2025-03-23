@@ -8,12 +8,12 @@ I +33 6 40 16 41 03
 § Kajiih
 
 Education
-2022–2024
+2022–2025
 
 Seoul National University, College of Engineering (#40 globally, THE 2025)
 M.Sc. in Computer Science and Engineering
 
-2020–2024 École des Mines de Saint-Étienne
+2020–2025 École des Mines de Saint-Étienne
 Diplôme d’Ingénieur Civil des Mines (Master’s Degree in Engineering)
 ⋄ Specialization: Data Science
 ⋄ Award for Community Engagement
@@ -45,34 +45,37 @@ adversarial training in security-focused simulations.
 
 2021–2022
 
-Arts Council President, École des Mines de Saint-Étienne
-⋄ Led cultural programming for 500+ students, organizing 3+ monthly events (concerts,
-exhibitions) and coordinating the annual gala with 100+ artists. Expanded arts engagement
-through workshops (music, dance, theater), doubling participation within 1 year.
+Student Association Leader, École des Mines de Saint-Étienne
+⋄ Art Council President
+- Revitalized campus arts engagement through 3+ monthly events (concerts, exhibitions)
+and directed the annual gala for 100+ artists.
+- Launched workshops (music, dance, theater), doubling participation in one year.
+⋄ Sports Coordinator, Cartel des Mines 2022
+- Managed logistics for a 4-day national competition (1,800+ participants, 14 sports, $160K
+budget), achieving high participant satisfaction via streamlined scheduling.
 
 Projects
-GitHub §
-
-RL-THOR, Python, PyTorch, Gymnasium
-Developed an open-source RL environment within AI2THOR, optimized for embodied AI
-research with realistic and highly customizable tasks based on object relations within the
-scene.
 
 GitHub §
 
+RL-THOR, Python, PyTorch, Gymnasium
+Developed an open-source reinforcement learning environment, optimized for training
+domestic AI agents on realistic hierarchical tasks, such as multi-step household workflows.
+
+GitHub §
+
 MusicBrainz2Notion, Python
-Built a CLI app to automate music metadata synchronization between MusicBrainz and
-Notion, streamlining database updates for music enthusiasts and archivists.
+Built a CLI app to automate synchronization of music metadata between MusicBrainz
+and Notion, streamlining database management for archivists and enthusiasts.
 
 Languages and Interests
 Languages
 
-French (native), English (fluent – C1, TEPS 525/600, 2024), German and Korean
-(intermediate).
+French (native), English (fluent – C1, TOEIC 975/990), German and Korean (intermediate).
 
 Interests
 
-Sport climbing (certified instructor), dancesport (competitions), creative writing and
-directing.
+Sport climbing (certified instructor), dancesport (competitions), writing and directing
+musical theater.
 
 
