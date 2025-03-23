@@ -51,4 +51,56 @@
 \newcommand{\november}{\monthName{11}}
 \newcommand{\december}{\monthName{12}}
 
+\newcommand{\monthAbbrev}[1]{%
+    \iflanguage{french}{%
+        % French month abbreviations
+        \ifcase#1\relax
+        \or Janv.%
+        \or Févr.%
+        \or Mars%
+        \or Avr.%
+        \or Mai%
+        \or Juin%
+        \or Juil.%
+        \or Août%
+        \or Sept.%
+        \or Oct.%
+        \or Nov.%
+        \or Déc.%
+        \else [Mois invalide]%
+        \fi
+    }{%
+        % English month abbreviations
+        \ifcase#1\relax
+        \or Jan.%
+        \or Feb.%
+        \or Mar.%
+        \or Apr.%
+        \or May%
+        \or June%
+        \or July%
+        \or Aug.%
+        \or Sept.%
+        \or Oct.%
+        \or Nov.%
+        \or Dec.%
+        \else [Invalid month]%
+        \fi
+    }%
+}
+
+% Individual abbreviation commands
+\newcommand{\januaryAbbrev}{\monthAbbrev{1}}
+\newcommand{\februaryAbbrev}{\monthAbbrev{2}}
+\newcommand{\marchAbbrev}{\monthAbbrev{3}}
+\newcommand{\aprilAbbrev}{\monthAbbrev{4}}
+\newcommand{\mayAbbrev}{\monthAbbrev{5}}
+\newcommand{\juneAbbrev}{\monthAbbrev{6}}
+\newcommand{\julyAbbrev}{\monthAbbrev{7}}
+\newcommand{\augustAbbrev}{\monthAbbrev{8}}
+\newcommand{\septemberAbbrev}{\monthAbbrev{9}}
+\newcommand{\octoberAbbrev}{\monthAbbrev{10}}
+\newcommand{\novemberAbbrev}{\monthAbbrev{11}}
+\newcommand{\decemberAbbrev}{\monthAbbrev{12}}
+
 \newcommand{\Seoul}{\iflanguage{french}{Séoul}{Seoul}}
