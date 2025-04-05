@@ -20,53 +20,42 @@ Diplôme d’Ingénieur Civil des Mines (Master’s Degree in Engineering)
 
 2018–2019 Lycée Carnot de Dijon, Classes Préparatoires aux Grandes Écoles
 Two-year intensive program in advanced mathematics and physics (MPSI/MP* track)
-⋄ Preparation for France’s competitive national entrance exams (concours) to Grandes Écoles
-(elite institutions).
+⋄ Preparation for France’s competitive national entrance exams to Grandes Écoles (elite institutions).
 
 Experiences
 2022–2024
 
 Graduate Student Researcher, SNU Vision & Learning Lab
-⋄ Designed and deployed a domestic AI training framework with reinforcement learning (RL)
-environment, including an AI2THOR-based environment for hierarchical tasks (evaluation
-overhead reduced to 1.7% of raw runtime).
-⋄ Trained 10+ researchers on JAX/Flax workflows, achieving 25% lab-wide adoption within 1
-year through seminars and code reviews.
-⋄ Teaching Assistant for Discrete Mathematics (150+ undergrads) and Probabilistic Graphical
-Models (40+ grad students): Designed and graded final exams, assignments, and led tutorials.
+⋄ Designed a domestic AI training framework and deployed a reinforcement learning environment,
+reducing evaluation overhead to 1.7% of the raw simulation runtime.
+⋄ Trained 10+ researchers on JAX/Flax workflows, achieving 25% lab-wide adoption in 1 year.
+⋄ Teaching Assistant for Discrete Mathematics (150+ students) and Probabilistic Graphical Models
+(40+ graduate students): Authored exams, assignments, and tutorials.
 
 June–Aug. AI Engineer Intern, Apex Solutions
-2022 ⋄ Prototyped a multi-agent simulation environment (Python/Gymnasium) for modeling intrusion
-scenarios in critical infrastructure; framework remains actively used for internal security
-research.
-⋄ Developed RL benchmarks for adversarial capture-the-flag simulations with limited informationsharing constraints (PyTorch/Stable-Baselines3).
-⋄ Optimized RL algorithms for red team (offense) and blue team (defense) agents, enhancing
-adversarial training in security-focused simulations.
+2022 ⋄ Designed simulation environments for critical infrastructure intrusion scenarios and RL benchmarks,
+optimizing adversarial agent training under limited information-sharing constraints. Resulting
+framework remains in active use for security research.
 
 2021–2022
 
 Student Association Leader, École des Mines de Saint-Étienne
-⋄ Art Council President
-- Revitalized campus arts engagement through 3+ monthly events (concerts, exhibitions)
-and directed the annual gala for 100+ artists.
-- Launched workshops (music, dance, theater), doubling participation in one year.
-⋄ Sports Coordinator, Cartel des Mines 2022
-- Managed logistics for a 4-day national competition (1,800+ participants, 14 sports, $160K
-budget), achieving high participant satisfaction via streamlined scheduling.
+⋄ Art Council President: Revitalized campus arts engagement via 3+ monthly events (concerts/exhibitions) and annual gala (100+ artists); launched artistic workshops, doubling participation in 1 year.
+⋄ Sports Coordinator, Cartel des Mines 2022: Led end-to-end sport operations for a 4-day
+national competition (1.8K+ participants, 14 disciplines, $160K budget).
 
 Projects
-
-GitHub §
+GitHub §
 
 RL-THOR, Python, PyTorch, Gymnasium
-Developed an open-source reinforcement learning environment, optimized for training
-domestic AI agents on realistic hierarchical tasks, such as multi-step household workflows.
+Developed an open-source reinforcement learning environment, optimized for training domestic
+AI agents on realistic hierarchical tasks, such as multi-step household workflows.
 
 GitHub §
 
-MusicBrainz2Notion, Python
-Built a CLI app to automate synchronization of music metadata between MusicBrainz
-and Notion, streamlining database management for archivists and enthusiasts.
+MusicBrainz2Notion, Python, REST APIs
+Built a CLI app to automate synchronization of music metadata between MusicBrainz and
+Notion, streamlining database management for archivists and enthusiasts.
 
 Languages and Interests
 Languages
@@ -75,7 +64,7 @@ French (native), English (fluent – C1, TOEIC 975/990), German and Korean (inte
 
 Interests
 
-Sport climbing (certified instructor), dancesport (competitions), writing and directing
-musical theater.
+Sport climbing (certified instructor), dancesport (competitions), writing and directing musical
+theater.
 
 

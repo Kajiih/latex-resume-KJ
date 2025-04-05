@@ -28,7 +28,7 @@ environnement d’apprentissage par renforcement.
 — Formation de chercheurs au framework de machine learning JAX .
 — Assistant d’enseignement en Mathématiques Discrètes et Modèles Graphiques Probabilistes.
 
-Juin–Août Ingénieur Stagiaire, Apex Solutions
+Juin–Août Ingénieur IA Stagiaire, Apex Solutions
 2022
 — Conception d’environnements de simulation d’intrusions dans des infrastructures critiques
 et de benchmarks d’apprentissage par renforcement.
@@ -48,7 +48,7 @@ d’intelligences artificielles domestiques.
 
 GitHub §
 
-MusicBrainz2Notion, Python
+MusicBrainz2Notion, Python, REST APIs
 Application automatisant la synchronisation bases de données entre MusicBrainz et Notion.
 
 Langues et Centres d’Intérêt
