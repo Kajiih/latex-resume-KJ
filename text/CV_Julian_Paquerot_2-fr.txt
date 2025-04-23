@@ -25,7 +25,7 @@ Expériences
 Étudiant-chercheur, SNU Vision & Learning Lab
 — Conception d’un framework d’entraînement d’IA domestiques et déploiement d’un
 environnement d’apprentissage par renforcement.
-— Formation de chercheurs au framework de machine learning JAX .
+— Formation de chercheurs au framework de machine learning JAX.
 — Assistant d’enseignement en Mathématiques Discrètes et Modèles Graphiques Probabilistes.
 
 Juin–Août Ingénieur IA Stagiaire, Apex Solutions
