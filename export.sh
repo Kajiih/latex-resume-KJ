@@ -17,6 +17,9 @@ for PDF_FILE in *.pdf; do
         continue
     fi
 
+    if [[ "$BASE_NAME" = cover_letter* ]]; then
+        continue
+    fi
     # Get the base name (without extension) of the PDF file
     BASE_NAME=$(basename "$PDF_FILE" .pdf)
 

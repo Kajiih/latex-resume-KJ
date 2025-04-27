@@ -42,7 +42,7 @@ par mois et la coordination de la production du gala annuel.
 Projets
 GitHub §
 
-RL-THOR, Python, PyTorch, Gymnasium
+RL-THOR, Python, Rust, PyTorch, Gymnasium
 Environnement d’apprentissage par renforcement open source optimisé pour l’entrainement
 d’intelligences artificielles domestiques.
 

@@ -26,7 +26,7 @@ Expériences
 Étudiant-chercheur, SNU Vision & Learning Lab
 — Conception d’un framework d’entraînement d’IA domestiques et déploiement d’un
 environnement d’apprentissage par renforcement.
-— Formation de chercheurs au framework de machine learning JAX .
+— Formation de chercheurs au framework de machine learning JAX.
 — Assistant d’enseignement en Mathématiques Discrètes et Modèles Graphiques Probabilistes.
 
 Juin–Août Ingénieur IA Stagiaire, Apex Solutions
@@ -43,7 +43,7 @@ par mois et la coordination de la production du gala annuel.
 Projets
 GitHub §
 
-RL-THOR, Python, PyTorch, Gymnasium
+RL-THOR, Python, Rust, PyTorch, Gymnasium
 Environnement d’apprentissage par renforcement open source optimisé pour l’entrainement
 d’intelligences artificielles domestiques.
 

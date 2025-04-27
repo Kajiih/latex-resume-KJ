@@ -47,7 +47,7 @@ national competition (1.8K+ participants, 14 disciplines, $160K budget).
 Projects
 GitHub §
 
-RL-THOR, Python, PyTorch, Gymnasium
+RL-THOR, Python, Rust, PyTorch, Gymnasium
 Developed an open-source reinforcement learning environment, optimized for training domestic
 AI agents on realistic hierarchical tasks, such as multi-step household workflows.
 
